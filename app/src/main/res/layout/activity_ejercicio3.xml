@@ -11,6 +11,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
+    <TextView
+        android:id="@+id/motionMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esperando movimiento..."
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
     <Button
         android:id="@+id/btnVolver3"
         android:layout_width="wrap_content"

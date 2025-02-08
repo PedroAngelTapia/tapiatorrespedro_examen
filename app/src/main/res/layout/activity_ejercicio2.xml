@@ -11,6 +11,32 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
 
+    <EditText
+        android:id="@+id/cityInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el nombre de la ciudad"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnGetTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener temperatura"
+        android:layout_below="@id/cityInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/temperatureOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/btnGetTemperature"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
     <Button
         android:id="@+id/btnVolver2"
         android:layout_width="wrap_content"
